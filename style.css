@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head-content{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-img{
+    width:130px;
+}
+.li-container{
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    
+   
+}
+.li-item{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.li-item:hover{
+    color: blue;
+}
